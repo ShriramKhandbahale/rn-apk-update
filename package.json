@@ -1,6 +1,6 @@
 {
   "name": "rn-apk-update",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React Native library designed to provide in-app update functionality for Android applications distributed outside the Google Play Store. This library allows you to check for updates, download APK files, and install them directly within your app, making it a perfect solution for apps distributed via APK files",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
@@ -191,8 +191,6 @@
   },
   "dependencies": {
     "@react-native-community/progress-bar-android": "^1.0.5",
-    "install": "^0.13.0",
-    "npm": "^10.8.3",
     "react-native-blob-util": "^0.19.11",
     "react-native-device-info": "^13.0.0"
   }
